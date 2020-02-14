@@ -1,6 +1,9 @@
-let inquier = require("inquierer");
+let inquirer = require("inquirer");
 let questions = require("./questions");
 
-inquierer.prompt(questions).then((a => {
-    
-}))
+
+inquirer.prompt(questions).then(a);
+
+function a(answers){
+    console.log(answers);
+}

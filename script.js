@@ -9,10 +9,10 @@ function answerHandler(){
 }
 
 function bid(){
-
+    
 }
 
 function post(){
-    
+
 }
 

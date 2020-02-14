@@ -1,9 +1,18 @@
 let inquirer = require("inquirer");
+let mysql = require("mysql");
 let questions = require("./questions");
 
+inquirer.prompt(questions).then(answerHandler);
 
-inquirer.prompt(questions).then(a);
-
-function a(answers){
-    console.log(answers);
+function answerHandler(){
+    
 }
+
+function bid(){
+
+}
+
+function post(){
+    
+}
+
